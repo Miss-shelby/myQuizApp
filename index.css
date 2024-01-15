@@ -187,4 +187,10 @@ a {
   .option {
     width: 260px;
   }
+  .primaryStyle {
+    font-size: 18px;
+  }
+  .flex {
+    font-size: 20px;
+  }
 }
