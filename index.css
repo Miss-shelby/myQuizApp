@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  height: 100%;
+}
 .header {
   max-width: 1400px;
   background-color: grey;
@@ -25,7 +28,7 @@
   height: 550px;
   margin: 0 auto;
   /* display: flex; */
-  padding: 0 30px;
+  padding: 10px 30px;
   /* flex-direction: column; */
   align-items: center;
 }
@@ -148,12 +151,11 @@ a {
   border: none;
   border-radius: 14px;
   margin-top: 0.2rem;
-  margin-bottom: 3rem;
+  /* margin-bottom: 3rem; */
   cursor: pointer;
 }
 .primaryStyle {
   text-align: center;
-  padding-top: 15px;
   font-size: 22px;
   color: #4c7d7b;
 }
@@ -162,6 +164,7 @@ a {
   justify-content: space-between;
   align-items: center;
   font-size: 30px;
+  padding-top: 15px;
   color: #4c7d7b;
 }
 #time {
@@ -172,6 +175,9 @@ a {
   margin-bottom: 2rem;
 }
 @media (max-width: 400px) {
+  .header {
+    height: 100%;
+  }
   .container,
   .container2 {
     width: 300px;
