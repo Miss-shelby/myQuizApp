@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>my quiz app</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="container2">
+        <div class="flex">
+          <p class="welcomeMsg primaryStyle">
+            Welcome <span id="myUser">user</span>
+          </p>
+          <p id="time"></p>
+        </div>
+        <div class="content">
+          <p class="question"></p>
+          <p class="option"></p>
+          <p class="option"></p>
+          <p class="option"></p>
+          <p class="primaryStyle" id="quizIndex">1/10</p>
+        </div>
+        <p class="primaryStyle" id="result"></p>
+        <button id="nextBtn" class="Btn">next</button>
+        <button id="finish" class="Btn"><a href="index.html"> Exit</a></button>
+      </div>
+    </div>
+    <script src="quiz.js"></script>
+  </body>
+</html>
